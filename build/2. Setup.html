@@ -1,0 +1,50 @@
+<!doctype html>
+		<html lang="en">
+			<head>
+				<meta charset="UTF-8" />
+				<meta
+					name="viewport"
+					content="width=device-width, initial-scale=1.0"
+				/>
+				<title>2. Setup</title>
+			</head>
+			<body style="display: flex; flex-direction: row;">
+				<nav style="width: 250px; padding: 15px;>
+		<ul style="list-style: none;>
+	<li style="list-style: none; padding: 0 10px;">
+		
+		<a href="/1. Install the plugin.html">
+			1. Install the plugin
+		</a>
+
+	</li>
+		
+	<li style="list-style: none; padding: 0 10px;">
+		
+		<a href="/2. Setup.html">
+			2. Setup
+		</a>
+
+	</li>
+		
+	</ul>
+</nav>
+
+				<main><h2>Requirements:</h2>
+<ul>
+<li>A <a href="https://pantheon.io">Pantheon</a> account and a workspace with <a href="https://docs.pantheon.io/guides/decoupled/overview">Front-End Sites</a> enabled</li>
+<li>A <a href="https://github.com">GitHub</a> account</li>
+</ul>
+<h2>Steps</h2>
+<p>After installing the plugin, some additional setup is required before publishing can be done.</p>
+<ol>
+<li>Create a GitHub repo. It should be public and empty!</li>
+<li>In Obsidian.md, open <strong>Settings</strong> > <strong>Community Plugins</strong> and click the gear icon on the <strong>Hackathon 2024 Pantheon Obsidian Plugin</strong></li>
+<li>Configure your GitHub username and repo on the settings page</li>
+<li>Hit Publish! This will take your vault content that is NOT marked with a hashtag "draft", convert it to HTML, and push it to the configured GitHub repo. Ensure your local git user is configured properly. If you have trouble with this step reach out!</li>
+<li>On the <a href="https://dashboard.panthon.io">Pantheon dashboard</a>, create a new Front-End Site with the repo configured for the vault. Use the <strong>Import Repository</strong> flow and select <strong>Gatsby</strong> as the framework. The rest of the options should be fine as the default.</li>
+<li>After the build and deploy steps your site should be available to view.</li>
+<li>Write or change content and hit publish to trigger new builds to the site. No more manual configuration should be necessary.</li>
+</ol></main>
+			</body>
+		</html> 
